@@ -15,6 +15,10 @@ echo "The second number which is y is " .$y."<br>";
 echo "the final result of the two numbers x and y added together is ";
 Echo $x+$y;
 Echo ".";
+Echo "<h2> var_dump test</h2>";
+Echo "the result of the var dump function is <br>";
+$number = 7;
+var_dump($number);
 ?>
 </body>
 </html>
