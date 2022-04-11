@@ -1,0 +1,11 @@
+Program will accomplish the following task
+The purpose of the program is to look up a UPC code that a user enters
+The program consists of a web page with an edit box and submit buttons on it
+1. When the user sees the page heading level 1 will say welcome to the UPC program.
+2. Below this heading an edit box with the label that reads please enter an 12 digit UPC number in the box below to look up a product.
+3. Just below edit box the submit button will be located.
+Conditions and error messages
+1. If the user enters a UPC number that is less then 12 digits, the program will redirect the user to a page that reads this UPC number is to short, please enter a valid UPC number consisting of 12 digits.
+2. The user can click the back link provided to try again.
+1. If the user enters an incorrectly formatted UPC number, the program will send the user to a page saying the UPC number is not formatted correctly, please check the number and try reentering it again.
+1. If the user attempts to enter a UPC number that is correct and valid, the program will return the product in the array.
